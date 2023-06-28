@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi how can i help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What are the courses available in your university/college?",
+        "what are offered in your university/college?",
+        "courses?",
+        "what are the BE and B.Tech courses available?"
+        
+
+      ],
+      "responses": [
+        "  Velammal College of Engineering and Technology (VCET) in Madurai offers undergraduate courses in various engineering disciplines. The courses available at VCET are:, Bachelor of Engineering (BE) in Civil Engineering, B.E. in Computer Science and Engineering, B.E. in Electrical and Electronics Engineering, B.E. in Electronics and Communication Engineering, B.TECH in Mechanical Engineering, B.E. in Information Technology"
+       
+        
+      ]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "what is the duration of UG courses?",
+        "Duration of UG courses?",
+        "How long will it take to complete the course?",
+        "What is the time period of the courses?",
+        "How many years it take to complete a course?"
+      ],
+      "responses": [
+        "The duration of undergraduate courses (B.E.) in Velammal College of Engineering and Technology (VCET) is 4 years."
+      ]
+    },
+    {
+      "tag": "fee",
+      "patterns": [
+        "what is the cost of completing a course?",
+        "what is the fee structure?",
+        "Fee details?",
+        "can u share the fee details?",
+        "what is the fee details?",
+        "how much we have to pay for cse course?"
+
+      ],
+      "responses": [
+        "It differ for Management quota and Government Quota"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+
+    {
+      "tag": "facilites",
+      "patterns": [
+        "What resources and facilities does the college offer, and how can I access them?",
+        " resources and facilities",
+        "What resources does the college offer",
+        "What facilities does the college offer"
+       
+      ],
+      "responses": [
+        "Library, Laboratories, Sports Facilities, Hostel Facilities, Transportation, Wi-Fi "
+      ]
+    },
+    {
+      "tag": "course",
+      "patterns": [
+        "Is IT course available?",
+        "Is cse course available?",
+        "Is EEE course available?",
+        "Is Mech course available?",
+        "Is Civil course available?",
+        "Is Ece course available?",
+        "Is AI course available?"
+       
+      ],
+      "responses": [
+        "Yes it is available!"
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "could you please provide the faculty details of IT department?",
+        "faculty details?"
+       
+      ],
+      "responses": [
+        "Dr. R. Kavitha Head of the Department ,Dr. S. Kamalesh, PhD., Mrs.M.Seema, M.E., Mrs. M. Prabha, B.Tech., M.Tech., Mrs. P. Saraswathi, B.E, M.Tech., Mrs.N.Shanmuga sundari, M.Tech., Mr.P.Suresh Babu, B.Tech, M.E. ,Mr.S.Jegadeesan,B.Tech,M.E,Mrs.R.Nancy Deborah, M.E,A.Gobinath M.E., (Ph.D)., Mrs.C.MANJULADEVI, M.Tech., MBA,Mrs.P.Uma Maheswari M.E.,(Ph.D).,Mrs.A.Vinora M.E.,  A.SRINIVASAN, M.E, P.KALYANA KUMAR B.TECH.,M.E ,G.SIVAKARTHI B.Tech,        "
+        
+      ]
+    }
+  ]
+}
