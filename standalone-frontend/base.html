@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Chatbot</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chatbot</title>
+</head>
+<body>
+     <section class="header">
+            <nav>
+                <a herf="index.html"><img src="images/logo1.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1> VELAMMAL COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+                <p>VIRAGANOOR,MADURAI-625009<br>
+                    An Autonomous Institution
+                    Accredited by NAAC with "A" Grade
+                    NBA Accrediated UG Courses-B.E.(CSE,ECE,EEE,MECH)&B.Tech(IT)
+                </p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+
+            </div>
+
+
+          </section>
+          <!--course-->
+          <section class="course">
+            <h1>Courses We Offer</h1>
+           
+                
+             
+            <div class="row">
+
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p> B.E. in Civil Engineering
+                        <br>B.E. in Computer Science and Engineering</br>
+                        B.E. in Electrical and Electronics Engineering
+                       <br> B.E. in Electronics and Communication Engineering</br>
+                        B.E. in Mechanical Engineering
+                       <br> B.TECH. in Information Technology</br></p>
+                </div>
+                <div class="course-col">
+                    <img src="images/logo1.png">
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p><br>M.E. in Computer Science and Engineering</br>
+                        M.E. in Power Electronics and Drives
+                        <br>M.E. in Structural Engineering</br>
+                        Master of Business Administration (MBA)
+                        Master of Computer Applications (MCA)</p>
+            </div>
+          </section>
+
+          <!--campus-->
+          <section class="campus">
+            <h1>Our Campus</h1>
+            <p>Velammal College of Engineering and Technology (VCET) is situated on the outskirts of Madurai, Tamil Nadu, India. The campus is 25 acres in size and is intended to provide a favourable learning environment for students.
+                The campus has modern facilities such as well-equipped classrooms, labs, seminar halls, auditorium, library, sports facilities, and student dormitory lodging. The college also provides a cafeteria where students and staff may eat healthy and sanitary cuisine.
+                 The campus is tranquil and green, with planted gardens and open spaces, offering a peaceful environment for learning. The college has also placed a significant emphasis on sustainability, using eco-friendly practices such as rainwater collection, solar electricity, and garbage management.
+                 Overall, VCET offers a contemporary and well-equipped campus with an emphasis on sustainability and a calm learning environment.
+                 </p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/vvv.png">
+                    <div class="layer">
+                        <h3>RESEARCH</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/v5.jpeg ">
+                    <div class="layer">
+                        <h3>LEADERSHIP</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/vv.png ">
+                    <div class="layer">
+                        <h3>INNOVATION </h3>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!--facilities-->
+          <section class="facilities">
+            <h1>Our Facilities</h1>
+          </section>
+          <div class="row">
+            <div class="facilities-col">
+                <img src="images/2.png">
+                <h3>Library</h3>
+                <p>The VCET library is housed in a large facility with modern amenities. It has a large collection of books, periodicals, journals, and reference materials spanning a wide range of subjects. The library has national and international journal and database subscriptions. Experienced librarians run the library and are constantly accessible to help students and educators.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/3 (1).png">
+                <h3>Play Ground</h3>
+                <p>VCET features a playground where students can participate in a variety of sporting activities. Cricket, football, basketball, volleyball, and other games are available on the playground. It is well-kept and provides a safe setting for pupils to improve their physical health and sporting abilities.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/1.png">
+                <h3>Auditorium</h3>
+                <p>VCET has a modern and well-equipped auditorium with a seating capacity of around 1000 people. It is equipped with the latest audio-visual facilities, making it suitable for conducting seminars, conferences, and other events. The auditorium provides a comfortable and spacious environment for conducting various academic and cultural activities.</p>
+            </div>
+          </div>
+        </section>
+
+        <!--footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <P>VCET is a premier engineering college in Madurai, Tamil Nadu, India, offering undergraduate and postgraduate courses.</P>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+           
+        </section>
+
+
+
+
+
+    
+    <!---Js for toggle menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="./images/chatbox-icon.svg" /></button>
+        </div>
+    </div>
+</div>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
